@@ -20,7 +20,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
+  color: aquamarine;
 }
 
 a:hover,
@@ -33,6 +33,7 @@ hr {
   margin: 25px auto 0;
   border-width: 3px;
   border-color: rgba(31, 84, 154, 0.9);
+  box-shadow: 4px 8px 8px rgba(0,0,0,0.5);
 }
 
 hr.light {
@@ -67,7 +68,7 @@ p {
 }
 
 .navbar-default {
-  background-color: #15549a;
+  background-color: bisque;
   border-color: rgba(21, 84, 154, 0.1);
   opacity: 1;
   -webkit-transition: all 0.35s;
@@ -111,7 +112,7 @@ p {
   border:1px solid #fff;
   margin-right: 5px;
   border-radius: 4px;
-  background: #15549a;
+  background: beige;
   font-weight: 500;
 }
 
