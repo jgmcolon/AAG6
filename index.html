@@ -33,7 +33,7 @@
     <link href="css/responsive.css" rel="stylesheet">
 
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 St of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -43,8 +43,20 @@
 </head>
 
 <body id="page-top">
-
-    <!-- Preloader -->
+    <form action="https://example.com/process-form" method="POST">
+        <fieldset>
+          <legend>Datos personales</legend>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" required>
+          <label for="age">Edad:</label>
+          <input type="number" id="age" name="age" min="18" max="99" value="18">
+        </fieldset>
+        <input type="submit" value="Enviar">
+      </form>
+      
+    <!-- Preloader hola amigos amigo -->
     <div id="preloader"> 
         <div id="wave"></div>
     </div>
